@@ -139,6 +139,9 @@
 			"supply": [],
 			"denom_metadata": []
 		},
+		"bridge": {
+			"params": {}
+		},
 		"capability": {
 			"index": "1",
 			"owners": []
@@ -254,7 +257,7 @@
 				"max_deposit_period": "1209600s"
 			},
 			"voting_params": {
-				"voting_period": "1209600s"
+				"voting_period": "86400s"
 			},
 			"tally_params": {
 				"quorum": "0.334000000000000000",
