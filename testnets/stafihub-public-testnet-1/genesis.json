@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-02-11T13:18:58.430541Z",
-  "chain_id": "stafihub-testnet-1",
+  "genesis_time": "2022-04-13T13:18:58.430541Z",
+  "chain_id": "stafihub-public-testnet-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -214,7 +214,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "testnet-node-1",
+                  "moniker": "stafi-testnet-val-1",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -230,7 +230,7 @@
                 "validator_address": "stafivaloper1kfkr66qfcfwunyrz39ffu99r0jf3sk6atjedyr",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "EWGtuDFoRHgA+R+Wew52k0oMhpYQoXGf+5EhW1xLiNc="
+                  "key": "CFcHGRkVCMhYiHQpoESm7TdkxP35Ukd1RbB6D3Zy5+0="
                 },
                 "value": {
                   "denom": "ufis",
@@ -238,7 +238,7 @@
                 }
               }
             ],
-            "memo": "eab9e712c0ae7b86211d41ca18820ee14b30ac38@46.38.241.169:26656",
+            "memo": "694b556323f87e124060488ef2dcf9bab6539988@46.38.241.169:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -266,11 +266,11 @@
             }
           },
           "signatures": [
-            "6QYSOFWUlmmXGnkotS3f8lbGev3P6mnxOKXtEQma2z9PSOKwYOFRumqa1S2nqyLgeBE2RFLcelLvzuvrT8HOIQ=="
+            "Z6ykQ3GfHnUwhqBoEcPj1L9TzXOuHR831E9Se1PgXEMuI/llZ6Bc7J2Cbct2giVVOLAJ37cHy/ESDlhOY+f4ug=="
           ]
         }
       ]
-    },
+    },    
     "gov": {
       "starting_proposal_id": "1",
       "deposits": [],
@@ -356,10 +356,8 @@
         "denom": "ufis",
         "amount": "1000000000000"
       },
-      "validator_whitelist": [
-        "stafivaloper1kfkr66qfcfwunyrz39ffu99r0jf3sk6atjedyr"
-      ],
-      "whitelist_switch": true
+      "validator_whitelist": [],
+      "whitelist_switch": false
     },
     "rvote": {
       "proposal_life": "0"
