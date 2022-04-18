@@ -72,6 +72,13 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi14gfpk603mvmsh0xugskk96egrjl8s37vxq88t9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -132,6 +139,15 @@
             {
               "denom": "ufis",
               "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi14gfpk603mvmsh0xugskk96egrjl8s37vxq88t9",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "10000000000"
             }
           ]
         }
@@ -230,7 +246,7 @@
                 "validator_address": "stafivaloper1kfkr66qfcfwunyrz39ffu99r0jf3sk6atjedyr",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "CFcHGRkVCMhYiHQpoESm7TdkxP35Ukd1RbB6D3Zy5+0="
+                  "key": "Ppuz3Kjnhnd1WiQf7o3emSHKDQh0lonft5EMsHe8E18="
                 },
                 "value": {
                   "denom": "ufis",
@@ -238,7 +254,7 @@
                 }
               }
             ],
-            "memo": "694b556323f87e124060488ef2dcf9bab6539988@46.38.241.169:26656",
+            "memo": "4e2441c0a4663141bb6b2d0ea4bc3284171994b6@46.38.241.169:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -266,11 +282,72 @@
             }
           },
           "signatures": [
-            "Z6ykQ3GfHnUwhqBoEcPj1L9TzXOuHR831E9Se1PgXEMuI/llZ6Bc7J2Cbct2giVVOLAJ37cHy/ESDlhOY+f4ug=="
+            "jjXbvHU2O5x6ItrCKqaWLdS2pgmUySMzL4O9asjHcIxv8pQWswv3wEeG/W5Itb+JcQv4H7xO4EaUpm2YHIxedQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Wetez",
+                  "identity": "26FA2B24F46A98EF",
+                  "website": "",
+                  "security_contact": "",
+                  "details": "Wetez is the most professional team in the POS ( Proof of Stake) field.Wetez是POS领域最专业的团队，为POS带来的权益做更多赋能。"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi14gfpk603mvmsh0xugskk96egrjl8s37vxq88t9",
+                "validator_address": "stafivaloper14gfpk603mvmsh0xugskk96egrjl8s37v7mcwyv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NeczKpxBDII5eZ1HxcbmDFs51zavTpc2D2Ioo2ZfZIM="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000000"
+                }
+              }
+            ],
+            "memo": "79ffbd983ab6d47c270444f517edd37049ae4937@23.88.114.52:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AvV/whGP1N5MLO4QV8vJzRdT4940KICcP2UlXSfwLGKP"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures":[
+            "Jalc8jQO4TenhzTTab7ovGBsGFvhYS7wIqXa0Gq2jy0Nv40Op7U+0Cbz1ECXoL8OVJw7Ya+XSTUAVmXLzupmVw=="
           ]
         }
       ]
-    },    
+    },     
     "gov": {
       "starting_proposal_id": "1",
       "deposits": [],
