@@ -30,7 +30,7 @@ go version
 ```
 Clone git repository:
 ```shell
-git clone --depth 1 --branch public-testnet-v1 https://github.com/stafihub/stafihub
+git clone --branch public-testnet-v1 https://github.com/stafihub/stafihub
 ```
 Install:
 ```shell
