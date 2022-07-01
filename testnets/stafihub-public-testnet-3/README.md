@@ -1,4 +1,4 @@
-# StaFiHub Public Testnet v2
+# StaFiHub Public Testnet v3
 
 ## Hardware Requirements
 * **Minimal**
