@@ -40,7 +40,7 @@ cd $HOME/stafihub && make install
 Download genesis (replace `YOUR_NODE_NAME`):
 ```shell
 stafihubd init YOUR_NODE_NAME --chain-id stafihub-testnet-1
-wget -O $HOME/.stafihub/config/genesis.json "https://raw.githubusercontent.com/tore19/network/main/testnets/stafihub-testnet-1/genesis.json"
+wget -O $HOME/.stafihub/config/genesis.json "https://raw.githubusercontent.com/stafihub/network/main/testnets/stafihub-testnet-1/genesis.json"
 stafihubd tendermint unsafe-reset-all --home ~/.stafihub
 ```
 Configure your node:
