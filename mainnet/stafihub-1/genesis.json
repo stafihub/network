@@ -1,0 +1,379 @@
+{
+  "genesis_time": "2022-08-10T08:21:10.038296Z",
+  "chain_id": "stafihub-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "120000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "512",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        
+      ],
+      "supply": [],
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the StaFi Hub",
+          "denom_units": [
+            {
+              "denom": "ufis",
+              "exponent": 0,
+              "aliases": [
+                "microfis"
+              ]
+            },
+            {
+              "denom": "mfis",
+              "exponent": 3,
+              "aliases": [
+                "millifis"
+              ]
+            },
+            {
+              "denom": "fis",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ufis",
+          "display": "fis",
+          "name": "FIS",
+          "symbol": "FIS"
+        }
+      ]
+    },
+    "bridge": {
+      "params": {},
+      "depositCountList": [],
+      "proposalList": [],
+      "relayFeeList": [],
+      "chainIdList": [],
+      "relayFeeReceiver": "",
+      "resourceIdToDenomList": [],
+      "bannedDenomList": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "claim": {
+      "params": {},
+      "merkleRootList": [],
+      "claimBitMapList": [],
+      "claimSwitchList": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ufis",
+        "amount": "500000000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+      "gen_txs": [
+        
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "ufis",
+            "amount": "10000000000"
+          }
+        ],
+        "max_deposit_period": "806400s"
+      },
+      "voting_params": {
+        "voting_period": "432000s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "/cosmos.authz.v1beta1.MsgExec",
+            "/cosmos.authz.v1beta1.MsgGrant",
+            "/cosmos.authz.v1beta1.MsgRevoke",
+            "/cosmos.bank.v1beta1.MsgSend",
+            "/cosmos.bank.v1beta1.MsgMultiSend",
+            "/cosmos.distribution.v1beta1.MsgSetWithdrawAddress",
+            "/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission",
+            "/cosmos.distribution.v1beta1.MsgFundCommunityPool",
+            "/cosmos.distribution.v1beta1.MsgWithdrawDelegatorReward",
+            "/cosmos.feegrant.v1beta1.MsgGrantAllowance",
+            "/cosmos.feegrant.v1beta1.MsgRevokeAllowance",
+            "/cosmos.gov.v1beta1.MsgVoteWeighted",
+            "/cosmos.gov.v1beta1.MsgSubmitProposal",
+            "/cosmos.gov.v1beta1.MsgDeposit",
+            "/cosmos.gov.v1beta1.MsgVote",
+            "/cosmos.staking.v1beta1.MsgEditValidator",
+            "/cosmos.staking.v1beta1.MsgDelegate",
+            "/cosmos.staking.v1beta1.MsgUndelegate",
+            "/cosmos.staking.v1beta1.MsgBeginRedelegate",
+            "/cosmos.staking.v1beta1.MsgCreateValidator",
+            "/cosmos.vesting.v1beta1.MsgCreateVestingAccount",
+            "/ibc.applications.transfer.v1.MsgTransfer"
+          ]
+        }
+      }
+    },
+    "ledger": {
+      "exchangeRateList": [],
+      "eraExchangeRateList": [],
+      "totalProtocolFeeList": [],
+      "unbondSwitchList": [],
+      "bondedPoolList": [],
+      "bondPipelineList": [],
+      "eraUnbondLimitList": [],
+      "poolDetailList": [],
+      "currentEraSnapshotList": [],
+      "snapshotList": [],
+      "eraSnapshotList": [],
+      "chainEraList": [],
+      "stakingRewardCommissionList": [],
+      "protocolFeeReceiver": "",
+      "relayFeeReceiverList": [],
+      "totalExpectedActiveList": [],
+      "poolUnbondingList": [],
+      "unbondRelayFeeList": [],
+      "unbondCommissionList": [],
+      "bondRecordList": [],
+      "rparamsList": [],
+      "signatureList": [],
+      "MigrateIsSealed": false,
+      "icaPoolDetailList": [],
+      "interchainTxProposalInfoList": [],
+      "totalExpectedFeeList": []
+    },
+    "mining": {
+      "params": {},
+      "stakePoolList": [],
+      "stakeItemList": [],
+      "userStakeRecordList": [],
+      "miningProviderList": [],
+      "rewardTokenList": [],
+      "maxRewardPoolNumber": 2,
+      "miningProviderSwitch": true,
+      "maxStakeItemNumber": 6,
+      "stakeTokenList": [],
+      "stakeItemLimit": {
+        "maxPowerRewardRate": "24.000000",
+        "maxLockSecond": "31104000"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.020000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ufis",
+        "inflation_rate_change": "0.010000000000000000",
+        "inflation_max": "0.020000000000000000",
+        "inflation_min": "0.020000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "rbank": {
+      "params": {},
+      "addressPrefix": []
+    },
+    "rdex": {
+      "params": {},
+      "swapPoolList": [],
+      "providerList": [],
+      "providerSwitch": false,
+      "poolCreatorList": []
+    },
+    "relayers": {
+      "relayers": [],
+      "thresholds": []
+    },
+    "rmintreward": {
+      "params": {},
+      "actLatestCycleList": [],
+      "actCurrentCycleList": [],
+      "mintrewardActList": [],
+      "userClaimInfoList": [],
+      "userActList": [],
+      "userMintCountList": []
+    },
+    "rstaking": {
+      "params": {},
+      "inflation_base": "100000000000000",
+      "coin_to_be_burned": {
+        "denom": "ufis",
+        "amount": "2000000000000"
+      },
+      "validator_whitelist": [],
+      "validator_whitelist_switch": true,
+      "delegator_whitelist": [],
+      "delegator_whitelist_switch": true
+    },
+    "rvalidator": {
+      "params": {},
+      "selectedRValidatorList": [],
+      "latestVotedCycleList": [],
+      "latestDealedCycleList": [],
+      "cycleSecondsList": [],
+      "shuffleSecondsList": [],
+      "dealingRValidatorList": []
+    },
+    "rvote": {
+      "proposal_life": "0"
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.010000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1209600s",
+        "max_validators": 21,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ufis"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "sudo": {
+      "admin": ""
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
