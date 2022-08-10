@@ -88,7 +88,7 @@ stafihubd gentx YOUR_WALLET_NAME 1000000ufis \
 
 
 ## Download the final genesis file and config your node
-Please wait for the final genesis file and peers.
+#### Note: Please wait for the final genesis file and peers.
 
 Configure your node:
 ```shell
@@ -102,7 +102,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.s
 
 
 ## Start your node
-Please wait for the final launch time.
+#### Note: Please wait for the final launch time.
 
 Start the node in the background:
 ```shell
