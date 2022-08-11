@@ -84,9 +84,10 @@ stafihubd gentx YOUR_WALLET_NAME 1000000ufis \
 
 #### Submit PR with Gentx
 1. Copy the contents of ${HOME}/.stafihub/config/gentx/gentx-XXXXXXXX.json.
-2. Fork the repository
+2. Fork the repository.
 3. Create a file gentx-{{VALIDATOR_NAME}}.json under the /gentxs folder in the forked repo, paste the copied text into the file.
-4. Create a Pull Request to the main branch of the repository
+4. Create a Pull Request to the main branch of the repository.
+5. Post the PR link to the discord group(stafihub-genesis-validator).
 
 
 ## Download the final genesis file and config your node
