@@ -58,7 +58,7 @@ stafihubd init YOUR_NODE_NAME --chain-id stafihub-1
 ```shell
 stafihubd keys add YOUR_WALLET_NAME --keyring-backend file
 ```
-You can recover your keys with `--recover` flag if you have mnemonic.
+You can recover your keys with `--recover` flag if you have mnemonic. If you generate a new key, please remember to backup your mnemonic.
 
 #### Add genesis account:
 Note: We will reserve 5 FIS to your account in the genesis file.
@@ -68,6 +68,8 @@ stafihubd add-genesis-account YOUR_WALLET_NAME 5000000ufis --keyring-backend fil
 ```
 
 #### Create Gentx
+Note: The amount should be less than 5 FIS.
+
 ```
 stafihubd gentx YOUR_WALLET_NAME 1000000ufis \
 --chain-id stafihub-1 \
