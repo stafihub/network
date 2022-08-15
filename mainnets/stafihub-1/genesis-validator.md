@@ -91,7 +91,6 @@ stafihubd gentx YOUR_WALLET_NAME 1000000ufis \
 
 
 ## Download the final genesis file and config your node
-#### Note: Please wait for the final genesis file and peers.
 
 Configure your node:
 ```shell
