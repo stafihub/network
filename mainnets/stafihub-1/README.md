@@ -47,7 +47,7 @@ Configure your node:
 ```shell
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.01ufis\"/" $HOME/.stafihub/config/app.toml
 sed -i '/\[grpc\]/{:a;n;/enabled/s/false/true/;Ta};/\[api\]/{:a;n;/enable/s/false/true/;Ta;}' $HOME/.stafihub/config/app.toml
-peers=""
+peers="bed296dfadd972ed07cab82c87a0ee5c182dea43@18.136.189.120:26656,045fe6e054a5abe35f5433bd333f0a1b18aa28cf@45.136.28.11:26656,d35d55635093fddb6de22295c8fe31de98efe6ef@5.161.120.176:26656,20c0b45c47426c51b3187aa5dca82d9900c2fb36@5.161.88.157:26656,70230067eb1e668d2566329e727c72c930e54de3@116.202.30.7:26656,03f3cb61c7c472044c37aeededde2ffe8884fa02@159.69.108.86:26656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.stafihub/config/config.toml
 ```
 
@@ -84,48 +84,6 @@ sudo systemctl restart stafihubd
 Check your node logs:
 ```shell
 journalctl -u stafihubd -f
-```
-
-
-## Generate keys
-```shell
-stafihubd keys add YOUR_WALLET_NAME --keyring-backend file
-```
-You can recover your keys with `--recover` flag if you have mnemonic.
-
-## Instructions for Genesis Validators
-
-Please `stafihubd init` and `stafihubd keys add` first.
-
-#### Add genesis account:
-```
-stafihubd add-genesis-account YOUR_WALLET_NAME 1000000000ufis --keyring-backend file
-```
-
-#### Create Gentx
-```
-stafihubd gentx YOUR_WALLET_NAME 1000000ufis \
---chain-id stafihub-1 \
---moniker=YOUR_NODE_NAME \
---commission-max-change-rate=0.01 \
---commission-max-rate=0.20 \
---commission-rate=0.10 \
---details="<details>" \
---website="<website>" \
---keyring-backend file
-```
-
-#### Submit PR with Gentx and peer id
-1. Copy the contents of ${HOME}/.stafihub/config/gentx/gentx-XXXXXXXX.json.
-2. Fork the repository
-3. Create a file gentx-{{VALIDATOR_NAME}}.json under the /gentxs folder in the forked repo, paste the copied text into the file.
-4. Create a Pull Request to the main branch of the repository
-
-
-## Instructions for Creating validator
-Use the following command (do not forget to replace `YOUR_NODE_NAME` and `YOUR_WALLET_NAME`):
-```shell
-stafihubd tx staking create-validator -y --amount=1000000ufis --pubkey=$(stafihubd tendermint show-validator) --moniker=YOUR_NODE_NAME --website="<website>" --details="<details>" --commission-rate=0.10 --commission-max-rate=0.20 --commission-max-change-rate=0.01 --min-self-delegation=1 --from=YOUR_WALLET_NAME --chain-id=stafihub-1 --gas-prices=0.025ufis --keyring-backend file
 ```
 
 ## Explorer

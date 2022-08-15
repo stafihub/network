@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-08-10T08:21:10.038296Z",
+  "genesis_time": "2022-08-15T03:55:10.038296Z",
   "chain_id": "stafihub-1",
   "initial_height": "1",
   "consensus_params": {
@@ -31,7 +31,104 @@
         "sig_verify_cost_secp256k1": "1000"
       },
       "accounts": [
-
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1v4mpus8la6pqwwrs4sajk8gkjy8y7f5yyh82v8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1gy5jtfmxw9nyr0p4mkfh9lakegm3jxn3sjdvea",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1n0tpw5wtzderaftx8lfuzve39sx3gzsdgsjjqn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1gaz7z0cdkd7myegr7c6aaacsh2t33urdeugz6y",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi15ftet9g4u907jjn75qq6vldpqp96azlthqgae7",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1zujv6qenxquta0ppys3tysnz79xr2mhlm6jew4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi15rlqtsud70djrll5wuk970fpye995apn5gehpv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1c30ypu82a6xgntcl7gf7fewdctw7vf636tvtwu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1ncnwxpdv7tkzd3rxlk5jxagr9l9vup7tppxpds",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi10vrhlu3twe3uh03hrm5knczh9x65fj3xuvy5fm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi18em4at7k6qrmhjp804jst72ygj8h6hjz3tjm37",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1c9ye54e3pzwm3e0zpdlel6pnavrj9qqva8r5hg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi1ytraagfk3rdhll8p6u7d40tgh3k5ps4awr7jx2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "stafi17pvync8ctx6hwj40l5wh68knw0wvym4cplzjkz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
       ]
     },
     "bank": {
@@ -40,7 +137,132 @@
         "default_send_enabled": true
       },
       "balances": [
-        
+        {
+          "address": "stafi1v4mpus8la6pqwwrs4sajk8gkjy8y7f5yyh82v8",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "45000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1gy5jtfmxw9nyr0p4mkfh9lakegm3jxn3sjdvea",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "2500000000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1n0tpw5wtzderaftx8lfuzve39sx3gzsdgsjjqn",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "6300000000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1gaz7z0cdkd7myegr7c6aaacsh2t33urdeugz6y",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi15ftet9g4u907jjn75qq6vldpqp96azlthqgae7",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1zujv6qenxquta0ppys3tysnz79xr2mhlm6jew4",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi15rlqtsud70djrll5wuk970fpye995apn5gehpv",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1c30ypu82a6xgntcl7gf7fewdctw7vf636tvtwu",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1ncnwxpdv7tkzd3rxlk5jxagr9l9vup7tppxpds",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi10vrhlu3twe3uh03hrm5knczh9x65fj3xuvy5fm",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi18em4at7k6qrmhjp804jst72ygj8h6hjz3tjm37",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1c9ye54e3pzwm3e0zpdlel6pnavrj9qqva8r5hg",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi1ytraagfk3rdhll8p6u7d40tgh3k5ps4awr7jx2",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        },
+        {
+          "address": "stafi17pvync8ctx6hwj40l5wh68knw0wvym4cplzjkz",
+          "coins": [
+            {
+              "denom": "ufis",
+              "amount": "5000000"
+            }
+          ]
+        }
       ],
       "supply": [],
       "denom_metadata": [
@@ -127,7 +349,677 @@
     },
     "genutil": {
       "gen_txs": [
-        
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Wetez",
+                  "identity": "",
+                  "website": "https://www.wetez.io",
+                  "security_contact": "",
+                  "details": "Wetez is the most professional team in the POS ( Proof of Stake) field.\n"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi17pvync8ctx6hwj40l5wh68knw0wvym4cplzjkz",
+                "validator_address": "stafivaloper17pvync8ctx6hwj40l5wh68knw0wvym4ceyamet",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "XShNcNRvAEaEBoyHE5k0iBdyBJ1C8X5Il5abNCIw1iw="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "03f3cb61c7c472044c37aeededde2ffe8884fa02@159.69.108.86:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "As1A+Qb7DukcL9LN+znByHwEHVoQRXE8db5m/219T3Bw"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "CSmvW4CJd6LTvT7coPw6PVzbCRjoGz99o1Iwt+dV1kcrm5bAX9TkKeNyFnNwvb4Y7dn+x2bJh11Cw65sFPA4jQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StaFi Foundation1",
+                  "identity": "",
+                  "website": "https://stafihub.io",
+                  "security_contact": "",
+                  "details": "StaFiHub is built using the Cosmos-SDK and aims to provide liquid staking solutions for assets through the Inter-Blockchain Communication (IBC) Protocol to rapidly grow the staking industry."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi1gaz7z0cdkd7myegr7c6aaacsh2t33urdeugz6y",
+                "validator_address": "stafivaloper1gaz7z0cdkd7myegr7c6aaacsh2t33urdp8ht4d",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "iJo0ZeYdbLfA/KkMtdUkxmYawvSdNVbxDlik4BxRYgs="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "bed296dfadd972ed07cab82c87a0ee5c182dea43@172.31.5.172:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Avc5BLW6oHOlKpeeLVo44S57XR2kFZ62B6JC3Gcn3j9Z"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "sKkxCwIf7EX9NypF3dI3xIX7/z1YXZ7G7arDPBpVgF0iMa/VNCJoPY3vs+x1hJA+kqTn+9dKxsDr73u6wPJbbQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StaFi Foundation2",
+                  "identity": "",
+                  "website": "https://stafihub.io",
+                  "security_contact": "",
+                  "details": "StaFiHub is built using the Cosmos-SDK and aims to provide liquid staking solutions for assets through the Inter-Blockchain Communication (IBC) Protocol to rapidly grow the staking industry."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi15ftet9g4u907jjn75qq6vldpqp96azlthqgae7",
+                "validator_address": "stafivaloper15ftet9g4u907jjn75qq6vldpqp96azlt0mh5kh",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "wU/qN/+pkrUE0Mw1Lhh+/Tk0w25g7rjkD8t0HMIs0Tc="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "045fe6e054a5abe35f5433bd333f0a1b18aa28cf@45.136.28.11:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AuzZZs598PBH2pJasOlRdjZyiEY70s9cIEML9Q/9t87B"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "flBg2SotsKr4dn4KGI+ftdDkad0SyzlRZNeiPskEWNQIPttPQVDpEmTRIrZqutETLDxLPKTsQs73IjJjU2SJNA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StaFi Foundation3",
+                  "identity": "",
+                  "website": "https://stafihub.io",
+                  "security_contact": "",
+                  "details": "StaFiHub is built using the Cosmos-SDK and aims to provide liquid staking solutions for assets through the Inter-Blockchain Communication (IBC) Protocol to rapidly grow the staking industry."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi1zujv6qenxquta0ppys3tysnz79xr2mhlm6jew4",
+                "validator_address": "stafivaloper1zujv6qenxquta0ppys3tysnz79xr2mhlrpdspu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "5cciP32w9ZReElPmDUuXFz4CxKfoNBX9n7lcJoH4Y64="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "d35d55635093fddb6de22295c8fe31de98efe6ef@5.161.120.176:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0O/+78oCcH4CM0oNTEGxFZrfUNEUjqYlZVQuljumCJq"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "OphU3FuozP514sFUJbhkw3Zk19/IfhOJqzwsmOHqs9weufyNkLCNtuy2Vfm6OSc3zXp6lic0MAp74aGV/EO/BQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Chihuahua",
+                  "identity": "",
+                  "website": "https://chihuahua.wtf",
+                  "security_contact": "",
+                  "details": "To the world Chihuahua is just a dog, to us Chihuahua is the world"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi15rlqtsud70djrll5wuk970fpye995apn5gehpv",
+                "validator_address": "stafivaloper15rlqtsud70djrll5wuk970fpye995apnvnx7w9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "15+Rhr0wf7btITTostJ2Vm76rim5v0F4Q7+lt3EUuXA="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "2a8762cd32c4d49ef018c9bb0176492237d59142@65.21.131.216:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4vqT+lIXozD4Fu4orx0x3AkdMih6DzzwlD6k+hI6GtC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "iFNPeV80RVdfF8QJm11+pgfjQDrqWmpX6g+ONYj7oRQOSzaiXh1Nd31rdktAbqC1SRUrhbX78Lkf3KM2bDGgrA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Citadel.one",
+                  "identity": "EBB03EB4BB4CFCA7",
+                  "website": "https://citadel.one",
+                  "security_contact": "",
+                  "details": "Citadel.one is a multi-asset non-custodial staking platform that lets anyone become a part of decentralized infrastructure and earn passive income. Stake with our nodes or any other validator across multiple networks in a few clicks"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.030000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi1c30ypu82a6xgntcl7gf7fewdctw7vf636tvtwu",
+                "validator_address": "stafivaloper1c30ypu82a6xgntcl7gf7fewdctw7vf63zsnzp4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "AEUQtnJwwGOUXArHg96xZWEGA62+EoI6NVRIRF4kJjg="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "01a184a218ca3daa4daa8d032941f60a3ae90629@192.168.0.108:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ar6Z0s624xqc42entAqApH6XKXrVs+AH6KTjHRqI3xJC"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "6fnQdu9MGZ8PnkD2LiJDv1LcP9G4QgGTRK8iLomOFJdjhNDINA8oVX6hAlZCZfwjQUrrON4F8UIfTIHmVk6SJQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "IRISnet",
+                  "identity": "",
+                  "website": "https://irisnet.org",
+                  "security_contact": "",
+                  "details": "Interchain Service Hub for NextGen Distributed Applications."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi10vrhlu3twe3uh03hrm5knczh9x65fj3xuvy5fm",
+                "validator_address": "stafivaloper10vrhlu3twe3uh03hrm5knczh9x65fj3xyhmaxj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Use3v/VF3bFjPjseK1rZ0ou7ev+QfRS17xY5QJ8G/kM="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "b16a5d941f3c4086bac4bb0ba419d92614202933@172.17.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aj+0tJ5o6Pvwa+DqsuAQCt6gEW+AR+irhYyAv8DRkx+s"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "dISW9GzzgMdkhOmfXzfhdKiEAz8KNzD968G+dgXuX6h4ol0q6qKT3EtCOuXUNUZ8zZzOfuO5VFnwXHl/ba6QyA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakeLab",
+                  "identity": "F12B081334CBE0C6",
+                  "website": "https://www.stakelab.fr",
+                  "security_contact": "securite@stakelab.fr",
+                  "details": "Staking \u0026 Relaying Hub for Cosmos ecosystem"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi18em4at7k6qrmhjp804jst72ygj8h6hjz3tjm37",
+                "validator_address": "stafivaloper18em4at7k6qrmhjp804jst72ygj8h6hjzfsdj7h",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "9uGYwB/6ne0k2CYg29H3gZ5a+7zI0+FMUs/RZ/P0Ie0="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "a5f1489f5d250c8516f13b625226e5ad0af1a16a@65.108.106.131:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtlSeCLzMB04+HlC/yOfYqNFbkdMPJGxzYuvtd8F80f3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "t+FTztYkq7Z/vnURDfygOBRbt3gBtrudTGySRPmTuMUmXg4MDzwh2QPLzGZBqS2RgaynpOBcW5P60qMVLWHw6A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StakeWithUs",
+                  "identity": "609F83752053AD57",
+                  "website": "https://stakewith.us",
+                  "security_contact": "node@stakewith.us",
+                  "details": "Secured Staking Made Easy. Put Your Crypto to Work - Hassle Free. Disclaimer: Delegators should understand that delegation comes with slashing risk. By delegating to StakeWithUs Pte Ltd, you acknowledge that StakeWithUs Pte Ltd is not liable for any losses on your investment."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.200000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi1c9ye54e3pzwm3e0zpdlel6pnavrj9qqva8r5hg",
+                "validator_address": "stafivaloper1c9ye54e3pzwm3e0zpdlel6pnavrj9qqv9uuacp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Waoihv8zI5xSBPkf01HVLd2PC3KnCq17V47P1IsMO+I="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "4000000"
+                }
+              }
+            ],
+            "memo": "c5579f3943f7cd9c6d4509ed5a17b9f3f9f4faf9@192.168.50.190:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AvRbF677Kei9tPt9vn3EZXmDxr8XvZtqIZpaM+U4BVoI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "OLCIyN8k9hxGrFObOdXIs+02b6N3ZMvdJs/BPbvUhYgJAe4bb4D8ttGSR/0cn9j4cxXLKKA58ls/wBwVF1OJoA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Easy 2 Stake",
+                  "identity": "2C877AC873132C91",
+                  "website": "https://www.easy2stake.com/",
+                  "security_contact": "",
+                  "details": "We will manage day by day operation, just stake your crypto. Enjoy the rewards. Easy.Stake.Trust. as easy and as simple as you would click next. Complete transparency and trust with a secure and stable validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi1ncnwxpdv7tkzd3rxlk5jxagr9l9vup7tppxpds",
+                "validator_address": "stafivaloper1ncnwxpdv7tkzd3rxlk5jxagr9l9vup7te6egze",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "9dqVdDjPXOba6WFh8e3MowOGEbGH3hDwKb6I/29dkB0="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "3000000"
+                }
+              }
+            ],
+            "memo": "1ffd9b533b37c58ad651c80cd404689b0800d17f@10.100.110.13:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A3vT9XcAc5K/1VE75FuDIrmNNWUl+1BOXsORpzdC4iNW"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "wNDO/llnwnNxrKnmrzr4tY45t8DznetPV9zhTI2AMjRPnU2eXhVz3T5tfA8AhqGrgk22qWmKBMWC3Wx2yWcQXA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ushakov",
+                  "identity": "2E3A8285E6B547B2",
+                  "website": "https://stake2.me",
+                  "security_contact": "https://t.me/MasterDanila",
+                  "details": "Individual staking service"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "stafi1ytraagfk3rdhll8p6u7d40tgh3k5ps4awr7jx2",
+                "validator_address": "stafivaloper1ytraagfk3rdhll8p6u7d40tgh3k5ps4akcpmfr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2ijg8NFgTd1ZG6V67pDW/Aj6EYoOUNZFkOCHI/cWUUI="
+                },
+                "value": {
+                  "denom": "ufis",
+                  "amount": "4000000"
+                }
+              }
+            ],
+            "memo": "e14c69731824f43401f1cfb70d57ef8ed9b5a393@15.235.15.219:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7d+oaVJUnQIBHjejrg2nxbAuotb5XwTMQE/9f/+nVnu"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "84DUjdZxFkwtOn52wC3SZhIEN6A+6uED3uaAopldbhwM7Fp7H7BjnvO9tcq82cvNrrRKvSyLJL8L7xOqENYmjg=="
+          ]
+        }
       ]
     },
     "gov": {
@@ -318,10 +1210,22 @@
         "denom": "ufis",
         "amount": "2000000000000"
       },
-      "validator_whitelist": [],
+      "validator_whitelist": [
+        "stafivaloper17pvync8ctx6hwj40l5wh68knw0wvym4ceyamet",
+        "stafivaloper1gaz7z0cdkd7myegr7c6aaacsh2t33urdp8ht4d",
+        "stafivaloper15ftet9g4u907jjn75qq6vldpqp96azlt0mh5kh",
+        "stafivaloper1zujv6qenxquta0ppys3tysnz79xr2mhlrpdspu",
+        "stafivaloper15rlqtsud70djrll5wuk970fpye995apnvnx7w9",
+        "stafivaloper1c30ypu82a6xgntcl7gf7fewdctw7vf63zsnzp4",
+        "stafivaloper10vrhlu3twe3uh03hrm5knczh9x65fj3xyhmaxj",
+        "stafivaloper18em4at7k6qrmhjp804jst72ygj8h6hjzfsdj7h",
+        "stafivaloper1c9ye54e3pzwm3e0zpdlel6pnavrj9qqv9uuacp",
+        "stafivaloper1ncnwxpdv7tkzd3rxlk5jxagr9l9vup7te6egze",
+        "stafivaloper1ytraagfk3rdhll8p6u7d40tgh3k5ps4akcpmfr"
+      ],
       "validator_whitelist_switch": true,
       "delegator_whitelist": [],
-      "delegator_whitelist_switch": true
+      "delegator_whitelist_switch": false
     },
     "rvalidator": {
       "params": {},
@@ -363,7 +1267,7 @@
       "exported": false
     },
     "sudo": {
-      "admin": ""
+      "admin": "stafi1v4mpus8la6pqwwrs4sajk8gkjy8y7f5yyh82v8"
     },
     "transfer": {
       "port_id": "transfer",
