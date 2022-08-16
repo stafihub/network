@@ -3,8 +3,8 @@
 All the steps genesis validators need to do after we release the mainnet version.
 1. Please init your node and submit PR with Gentx before 2022-08-14T13:00:00.
 2. We will release the final genesis file before 2022-08-15T04:00:00.
-3. Please download the final genesis file and config your node before 2022-08-16T04:00:00.
-4. We will launch the mainnet together at 2022-08-16T13:00:00.
+3. Please download the final genesis file and config your node before 2022-08-17T04:00:00.
+4. We will launch the mainnet together at 2022-08-17T13:00:00.
 
 ## Hardware Requirements
 

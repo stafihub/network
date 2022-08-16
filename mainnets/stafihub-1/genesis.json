@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-08-16T13:00:00Z",
+  "genesis_time": "2022-08-17T13:00:00Z",
   "chain_id": "stafihub-1",
   "initial_height": "1",
   "consensus_params": {
@@ -117,7 +117,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "stafi1ytraagfk3rdhll8p6u7d40tgh3k5ps4awr7jx2",
+          "address": "stafi1pvwqfze548z95sdhun58trrvxhlhfrvkksuvrt",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -246,7 +246,7 @@
           ]
         },
         {
-          "address": "stafi1ytraagfk3rdhll8p6u7d40tgh3k5ps4awr7jx2",
+          "address": "stafi1pvwqfze548z95sdhun58trrvxhlhfrvkksuvrt",
           "coins": [
             {
               "denom": "ufis",
@@ -965,31 +965,31 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "ushakov",
-                  "identity": "2E3A8285E6B547B2",
-                  "website": "https://stake2.me",
-                  "security_contact": "https://t.me/MasterDanila",
-                  "details": "Individual staking service"
+                  "moniker": "Forbole",
+                  "identity": "2861F5EE06627224",
+                  "website": "https://forbole.com",
+                  "security_contact": "security@forbole.com",
+                  "details": "Co-building the Interchain"
                 },
                 "commission": {
                   "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "stafi1ytraagfk3rdhll8p6u7d40tgh3k5ps4awr7jx2",
-                "validator_address": "stafivaloper1ytraagfk3rdhll8p6u7d40tgh3k5ps4akcpmfr",
+                "delegator_address": "stafi1pvwqfze548z95sdhun58trrvxhlhfrvkksuvrt",
+                "validator_address": "stafivaloper1pvwqfze548z95sdhun58trrvxhlhfrvkwtr9vz",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "2ijg8NFgTd1ZG6V67pDW/Aj6EYoOUNZFkOCHI/cWUUI="
+                  "key": "+Fjg/uREkFfUbF5mJAIq4Z+PuDIpSZp1xLjLdWtp1FA="
                 },
                 "value": {
                   "denom": "ufis",
-                  "amount": "4000000"
+                  "amount": "4500000"
                 }
               }
             ],
-            "memo": "e14c69731824f43401f1cfb70d57ef8ed9b5a393@15.235.15.219:26656",
+            "memo": "7c2cfd50a69a8f943c51a46ab50a7da49dc736b4@192.168.50.57:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -999,11 +999,11 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A7d+oaVJUnQIBHjejrg2nxbAuotb5XwTMQE/9f/+nVnu"
+                  "key": "ArJdS8EZqhckauFPYYGvSHqXmGOdKoWXZeLUlegY3vwm"
                 },
                 "mode_info": {
                   "single": {
-                    "mode": "SIGN_MODE_DIRECT"
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
                   }
                 },
                 "sequence": "0"
@@ -1017,7 +1017,7 @@
             }
           },
           "signatures": [
-            "84DUjdZxFkwtOn52wC3SZhIEN6A+6uED3uaAopldbhwM7Fp7H7BjnvO9tcq82cvNrrRKvSyLJL8L7xOqENYmjg=="
+            "AAXn30kAoxw7Sm4JvZbWFgwjdmnoB2rMyT9cZayk8tBxbUsq0h73RMx8aIVzz5qMU6p52tpsIB34c3Cx0XquBg=="
           ]
         }
       ]
@@ -1221,7 +1221,7 @@
         "stafivaloper18em4at7k6qrmhjp804jst72ygj8h6hjzfsdj7h",
         "stafivaloper1c9ye54e3pzwm3e0zpdlel6pnavrj9qqv9uuacp",
         "stafivaloper1ncnwxpdv7tkzd3rxlk5jxagr9l9vup7te6egze",
-        "stafivaloper1ytraagfk3rdhll8p6u7d40tgh3k5ps4akcpmfr"
+        "stafivaloper1pvwqfze548z95sdhun58trrvxhlhfrvkwtr9vz"
       ],
       "validator_whitelist_switch": true,
       "delegator_whitelist": [],
