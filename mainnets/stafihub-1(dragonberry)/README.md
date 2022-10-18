@@ -11,7 +11,7 @@ cd $HOME/stafihub && make install
 
 Download genesis (replace `YOUR_NODE_NAME`):
 ```shell
-wget -O $HOME/.stafihub/config/genesis.json "https://github.com/stafihub/network/raw/main/mainnets/stafihub-1\(dragonberry\)/genesis.json"
+wget -O $HOME/.stafihub/config/genesis.json "https://github.com/stafihub/network/raw/main/mainnets/stafihub-1(dragonberry)/genesis.json"
 
 # Do not skip this step
 stafihubd tendermint unsafe-reset-all --home ~/.stafihub
