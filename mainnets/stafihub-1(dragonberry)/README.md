@@ -1,47 +1,22 @@
 # StaFiHub Mainnet
+**Notice: This is an upgrade, stop the old stafihubd process before starting**
 
-## Hardware Requirements
-* **Minimal**
-  * 4GB RAM
-  * 600GB SSD
-  * 2 vCPU
-* **Recommended**
-  * 8GB RAM
-  * 1T SSD
-  * 4 vCPU
 
-## Installation Steps
-Install dependencies:
-```shell
-cd $HOME
-sudo apt update
-sudo apt install make clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils -y < "/dev/null"
-```
-Install Go:
-```shell
-cd $HOME
-wget -O go1.18.2.linux-amd64.tar.gz https://go.dev/dl/go1.18.2.linux-amd64.tar.gz
-rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.2.linux-amd64.tar.gz && rm go1.18.2.linux-amd64.tar.gz
-echo 'export GOROOT=/usr/local/go' >> $HOME/.bashrc
-echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
-echo 'export GO111MODULE=on' >> $HOME/.bashrc
-echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bashrc && . $HOME/.bashrc
-go version
-```
-Clone git repository:
+Install stafihubd v0.2.3:
+
 ```shell
 git clone --branch v0.2.3 https://github.com/stafihub/stafihub
-```
-Install:
-```shell
 cd $HOME/stafihub && make install
 ```
 
 Download genesis (replace `YOUR_NODE_NAME`):
 ```shell
-wget -O $HOME/.stafihub/config/genesis.json "https://raw.githubusercontent.com/stafihub/network/main/mainnets/stafihub-1/genesis.json"
+wget -O $HOME/.stafihub/config/genesis.json "https://github.com/stafihub/network/raw/main/mainnets/stafihub-1\(dragonberry\)/genesis.json"
+
+# Do not skip this step
 stafihubd tendermint unsafe-reset-all --home ~/.stafihub
 ```
+
 Configure your node:
 ```shell
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.01ufis\"/" $HOME/.stafihub/config/app.toml
