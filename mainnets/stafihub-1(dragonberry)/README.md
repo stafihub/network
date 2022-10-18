@@ -9,7 +9,7 @@ git clone --branch v0.2.3 https://github.com/stafihub/stafihub
 cd $HOME/stafihub && make install
 ```
 
-Download genesis (replace `YOUR_NODE_NAME`):
+Download genesis and clean state:
 ```shell
 wget -O $HOME/.stafihub/config/genesis.json "https://github.com/stafihub/network/raw/main/mainnets/stafihub-1(dragonberry)/genesis.json"
 
