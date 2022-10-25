@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-08-06T08:21:10.038296Z",
-  "chain_id": "stafihub-testnet-1",
+  "genesis_time": "2022-10-25T06:21:18.287711434Z",
+  "chain_id": "stafihub-testnet-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -279,7 +279,7 @@
             }
           },
           "signatures": [
-            "ppjErG8L154yqgXuF4MwRZ4NRh8Z8CYhqMDDHPk0xTcfh78oQQxUxDA/HMoAO3KTEE1Yn+qIdudjdeVnNtmEKA=="
+            "Yo8Za0+n2t61sXhOFUThHm969HrRr1FgXSQe0i1VBPUJhcNgOUygnvudNoucpoFdLVknHaidjPWeUemh9Jlktg=="
           ]
         }
       ]
