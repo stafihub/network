@@ -61,4 +61,4 @@ journalctl -u stafihubd -f
 ```
 
 ## Explorer
-Explorer available [here](https://ping.pub/stafihub).
+Explorer available [here](https://mintscan.io/stafi).
